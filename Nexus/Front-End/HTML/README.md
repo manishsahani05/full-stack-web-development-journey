@@ -15,23 +15,23 @@ HTML is the standard markup language used to create and organize the content of 
 ### Basic HTML Structure
 Every HTML document follows a standard structure that mainly consists of:
 
-- '<html>' : Root element of the webpage
-- '<head>' : Contains metadata and page information
-- '<body>' : Contains the visible content displayed in the browser
+- `<html>` : Root element of the webpage
+- `<head>` : Contains metadata and page information
+- `<body>` : Contains the visible content displayed in the browser
 
 ### HTML Elements and Tags
 
 HTML uses tags to define different parts of a webpage.
 
-- Opening Tag: '<tagname>'
+- Opening Tag: `<tagname>`
 - Content: Information placed between opening and closing tags
-- Closing Tag: '</tagname>'
+- Closing Tag: `</tagname>`
 
 #### Common Self-Closing Tags
 
-- '<img>' – Displays images
-- '<br>' – Inserts a line break
-- '<hr>' – Creates a horizontal line
+- `<img>` – Displays images
+- `<br>` – Inserts a line break
+- `<hr>` – Creates a horizontal line
 
 ---
 
