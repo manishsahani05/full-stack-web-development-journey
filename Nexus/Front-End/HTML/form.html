@@ -1,0 +1,78 @@
+<!--
+HTML FORm : A form is used to collect information from user.
+Examples include login forms, registration forms, contact forms and feedback forms.
+
+COMMON FORM ELEMENTS :
+<form>  : used to creates a form
+<input> : Accepts user input
+<label> : Defines a label for an input feild
+<textarea> : Creates multi-line textbox
+<select> : Creates a dropdwon list
+<option> : Defines an option in a dropdwon
+<button> : Creates a clickable button
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Example</title>
+</head>
+<body>
+    <!-- Main Heading -->
+    <h1>Student Registration Form</h1>
+    <!-- Form starts here -->
+    <form>
+        <!-- Name Input -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <br><br>
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <!-- Gender Selection -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        <br><br>
+        <!-- Skills Selection -->
+        <label>Skills:</label>
+        <input type="checkbox" id="html">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="js">
+        <label for="js">JavaScript</label>
+        <br><br>
+        <!-- City Dropdwon -->
+        <label for="city">City:</label>
+        <select id="city">
+            <option>Varanasi</option>
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Lucknow</option>
+        </select>
+        <br><br>
+        <!-- Message Box -->
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" rows="5" cols="30"></textarea>
+        <br><br>
+        <!-- Form Button -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+    <!-- Form Ends Here -->
+</body>
+</html>
